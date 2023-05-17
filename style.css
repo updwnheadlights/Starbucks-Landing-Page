@@ -5,6 +5,7 @@
     padding: 0;
     box-shadow: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 
 }
 section
@@ -86,11 +87,17 @@ header ul li a:hover{
     background: #017143;
     color: #fff;
     border-radius: 40px;
-    font-weight: 500;
+    font-weight: 450;
     letter-spacing: 1px;
     text-decoration: none;
 }
 
+.content .text a:hover{
+    background-color: white;
+    color:#017143;
+    font-weight: 2000;
+    
+}
 .content .imageBox{
     width: 600px;
     display: flex;
@@ -100,4 +107,14 @@ header ul li a:hover{
 }
 .content .imageBox img{
     max-width: 340px;
+}
+
+.cricle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(740px at right 800px);
 }
