@@ -92,12 +92,6 @@ header ul li a:hover{
     text-decoration: none;
 }
 
-.content .text a:hover{
-    background-color: white;
-    color:#017143;
-    font-weight: 2000;
-    
-}
 .content .imageBox{
     width: 600px;
     display: flex;
