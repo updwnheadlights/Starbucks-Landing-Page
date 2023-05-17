@@ -1,114 +1,132 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-*{
-    
-    margin: 0;
-    padding: 0;
-    box-shadow: border-box;
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  
 }
-section
-{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
 }
-header{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 75%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header .logo{
-    position: relative;
-    max-width: 80px;
-    
+header .logo {
+  position: relative;
+  max-width: 80px;
 }
-header ul{
-    position: relative;
-    display: flex;
+header ul {
+  position: relative;
+  display: flex;
 }
 header ul li {
-    list-style: none;
+  list-style: none;
 }
-header ul li a{
-    display: inline-block;
-    color: #333;
-    font-weight: 500;
-    margin-left: 40px;
-    text-decoration: none;
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 500;
+  margin-left: 40px;
+  text-decoration: none;
 }
-header ul li a:hover{
-    color: #017143;
+header ul li a:hover {
+  color: #017143;
 }
-.content{
-    position: relative;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 150px;
+.content {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
 }
-.content .text{
-    position: relative;
-    max-width: 600px;
+.content .text {
+  position: relative;
+  max-width: 600px;
 }
-.content .text h2{
-    color: #333;
-    font-style: 4em;
-    line-height: 1.4em;
-    font-weight: 500;
-    font-size: 50px;
+.content .text h2 {
+  color: #333;
+  font-style: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+  font-size: 50px;
 }
-.content .text h2 span{
-    color: #017143;
-    font-weight: 900;
-    font-size: 50px;
+.content .text h2 span {
+  color: #017143;
+  font-weight: 900;
+  font-size: 50px;
 }
-.content .text p{
-    color: #333;
-    font-size: 20px;
+.content .text p {
+  color: #333;
+  font-size: 20px;
 }
-.content .text a{
-    display: inline-block;
-    margin-top: 20px;
-    padding: 8px 20px;
-    background: #017143;
-    color: #fff;
-    border-radius: 40px;
-    font-weight: 450;
-    letter-spacing: 1px;
-    text-decoration: none;
-}
-
-.content .imageBox{
-    width: 600px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    margin-top: 20px;
-}
-.content .imageBox img{
-    max-width: 340px;
+.content .text a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 450;
+  letter-spacing: 1px;
+  text-decoration: none;
 }
 
-.cricle{
+.content .imageBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+.content .imageBox img {
+  max-width: 340px;
+}
+
+.cricle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #017143;
+  clip-path: circle(740px at right 800px);
+}
+.sci{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #017143;
-    clip-path: circle(740px at right 800px);
+    top: 50%;
+    right: 30%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 525px;
+    
+}
+.sci li{
+     list-style: none;
+     
+}
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    
 }
